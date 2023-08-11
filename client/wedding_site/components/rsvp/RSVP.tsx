@@ -18,7 +18,7 @@ export const RSVP: React.FC<Props> = ({
     const onSubmitHandler = async (e: any) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/api/wedding', {
+            const response = await axios.post('https://wedding-backend-lake.vercel.app/api/wedding/', {
                 firstName,
                 lastName
             });
