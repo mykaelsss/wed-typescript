@@ -28,7 +28,7 @@ export const MobileGBody: React.FC<Props> = ({
     }, [currentPage]);
 
     useEffect( () => {
-        axios.get('http://localhost:8000/api/wedding')
+        axios.get('https://wedding-backend-lake.vercel.app/api/wedding')
         .then( res => {
             console.log(res)
             setGuests(res.data.people)
