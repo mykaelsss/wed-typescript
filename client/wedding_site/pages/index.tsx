@@ -6,7 +6,6 @@ export default function home() {
         isDivVisible: false,
         handleToggle: () => {},
         handleToggleRSVP: () => {},
-        closeDropdown: () => {},
         scrollToMid: () => {},
         formVisible: false,
         isGuestList: false,
